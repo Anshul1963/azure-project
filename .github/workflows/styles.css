@@ -1,0 +1,43 @@
+
+*{  margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo 2', cursive;
+
+}
+main header{
+    background-color: gray;
+    color: white;
+}
+.left{
+    display: inline-block;
+}
+.left img{
+    margin: 5px 12px;
+
+}
+.mid{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 96px;
+    font-size: 50px;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover{
+text-decoration: underline;
+}
